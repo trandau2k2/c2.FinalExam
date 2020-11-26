@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/TH_Module2",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "tuyet",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/"
+    }
+  }
+}
